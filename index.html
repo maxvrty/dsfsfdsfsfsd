@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>da syko novi avtomate</title>
+</head>
+<body>
+<style>
+.container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px 16px 80px;
+}
+
+.header-section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  text-align: center;
+  line-height: 140%;
+  margin: auto 0;
+}
+
+.greeting {
+  color: rgba(0, 0, 0, 0.66);
+  font: 14px Rubik, sans-serif;
+}
+
+.username {
+  color: #000;
+  margin-top: 6px;
+  font: 20px Rubik, sans-serif;
+}
+
+.user-avatar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 60px;
+}
+
+.profit-section {
+  border-radius: 20px;
+  background-color: #1e1e1e;
+  align-self: center;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 325px;
+  flex-direction: column;
+  align-items: start;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 140%;
+  padding: 15px 80px 26px 15px;
+}
+
+.profit-title {
+  text-align: center;
+  font-family: Sora, sans-serif;
+}
+
+.profit-amount {
+  margin-top: 13px;
+  font: 32px Sora, sans-serif;
+}
+
+.profit-percentage {
+  display: flex;
+  margin-top: 23px;
+  gap: 3px;
+  color: #4ebc59;
+  white-space: nowrap;
+}
+
+.percentage-img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 7px;
+  align-self: start;
+}
+
+.percentage-value {
+  font-family: Sora, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+</style>
+
+<section class="container">
+  <header class="header-section">
+    <div class="user-info">
+      <p class="greeting">Hello,</p>
+      <p class="username">Ahmed Haiurficyiastafan</p>
+    </div>
+    <div class="user-avatar">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/38f3471341137a42b4ea0197ca63ced624267230661c9ccd8e9b5b3b65941971?apiKey=decb6927c06a4668869582f6cdd61af7&" class="avatar-img" alt="User Avatar" />
+    </div>
+  </header>
+  <section class="profit-section">
+    <p class="profit-title">TOTAL PROFIT</p>
+    <p class="profit-amount">₽ 10000.22</p>
+    <div class="profit-percentage">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8e1849ecd4a4fbc15a2406e67c872f07654a1220915eeb1d3d67d42910a2a5c?apiKey=decb6927c06a4668869582f6cdd61af7&" class="percentage-img" alt="" />
+      <p class="percentage-value">1890.56%</p>
+    </div>
+  </section>
+</section>
+</body>
+</html>
